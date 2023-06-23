@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+
+.navbar{
+    background-color: white;
+    backdrop-filter: blur(25%);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+
+}
+.logo{
+    margin: 2rem 12.5rem;
+}
+.navigation{
+    position: absolute;
+    right: 0rem;
+    margin: 2rem 12.4rem;
+
+}
+.navigation a{
+    
+    /* font-family: 'Assistant', sans-serif;
+    font-size: 1.6rem;
+    font-weight:600;
+    padding: 0 2rem;
+    text-decoration: none;
+    color: #14213D; */
+}
