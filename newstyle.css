@@ -55,6 +55,7 @@ p{
 .btn:hover{
     background-color: #14213D;
     color: #E2E5EB;
+    cursor: pointer;
 }
 
 /* nav */
@@ -79,6 +80,9 @@ header{
 .logo{
 padding: 10px 0 0 0 ;
 margin: 0 0 0 12.4rem;
+}
+.logo:hover{
+    cursor: pointer;
 }
 .nav{
     margin: 0 12.4rem 0 0;
@@ -251,3 +255,38 @@ main{
     color: #14213D;
     margin: 2rem 2rem;
 }
+
+/* Footer */
+
+footer{
+    padding: 4.8rem 12.4rem;
+    background-color: #000000;
+}
+footer h2{
+    color: #E2E5EB;
+    margin-bottom: 0;
+}
+footer p{
+    color: #E2E5EB;
+}
+footer span{
+    color: #FF9F1C;
+}
+footer img:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px #3a3b3d;
+    border-radius: 32px;
+}
+footer h3{
+    color: #E2E5EB;
+    opacity: 0.5;
+    margin: 12.4rem 0;
+}
+
+
+/* Works Page */
+
+.all-works .text{
+    padding: 12.4rem 12.4rem 0 12.4rem;
+}
+.all-works .text h3{opacity: 50%;}
