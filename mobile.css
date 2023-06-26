@@ -24,6 +24,10 @@
         width: 80%;  
         margin: 3.6rem 0; 
      }
+     .btn{
+        font-size: 1.4rem;
+        padding: 1rem 2rem;
+     }
      #what .items{
         display: flex;
         flex-direction: column;
@@ -31,13 +35,18 @@
      #what .item{
         margin: 2rem 2.4rem;
     }
-
+    .works .items .items-container{
+        overflow: visible;
+    }
     .works .container .main-text{
         width: 80%;
         padding: 0;
     }
     .works .items img{
         display: none;
+    }
+    .works .items .p{
+        padding: 0 0 2.4rem 0;
     }
     .works .items .work-1{
         margin:6.4rem 2.4rem 0 2.4rem;
