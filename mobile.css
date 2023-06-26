@@ -1,0 +1,68 @@
+@media (max-width: 600px) {
+
+    header{
+        flex-direction: column;
+        
+    }
+    .logo{
+        margin: 2rem 0;
+    }
+    .nav{
+        margin: 0;
+    }
+    #showcase .showcase-content{
+        padding-top:6.4rem;
+    }
+    .l-heading{
+        font-size: 4.8rem;
+    }
+    .m-heading{font-size: 3.2rem;}
+    h3{font-size: 1.4rem;}
+    p{font-size: 1.4rem}
+    .p-bold{font-size: 1.4rem;}
+    #showcase .showcase-content p{
+        width: 80%;  
+        margin: 3.6rem 0; 
+     }
+     #what .items{
+        display: flex;
+        flex-direction: column;
+    }
+     #what .item{
+        margin: 2rem 2.4rem;
+    }
+
+    .works .container .main-text{
+        width: 80%;
+        padding: 0;
+    }
+    .works .items img{
+        display: none;
+    }
+    .works .items .work-1{
+        margin:6.4rem 2.4rem 0 2.4rem;
+    }
+    .works .items .work-2{
+        margin:6.4rem 2.4rem 0 2.4rem;
+    }
+    .works .items .work-3{
+        margin:6.4rem 2.4rem 0 2.4rem;
+    }
+    .works .items .work-1 .text{
+       border-radius: 1.6rem;
+       border: solid 1px #E2E5EB;
+    }
+    .works .items .work-2 .text{
+       border-radius: 1.6rem;
+       border: solid 1px #E2E5EB;
+    }
+    .works .items .work-3 .text{
+       border-radius: 1.6rem;
+       border: solid 1px #E2E5EB;
+    }
+    footer{
+        padding: 2.4rem;
+    }
+    .all-works .text{padding:18rem 2.4rem 0 2.4rem ;}
+
+}
