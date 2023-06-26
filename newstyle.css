@@ -83,6 +83,7 @@ header{
     width: 100vw;
     background: rgba(255, 255, 255, 0.50);
     backdrop-filter: blur(25px);
+    height: 8rem;
 
     
 }
@@ -215,10 +216,14 @@ main{
     /* border: solid 1px #E2E5EB; */
     margin: 6.4rem 12.4rem 0 12.4rem;
 }
-.works .items .work-1 .text{
+.works .items .text{
     background-color:#F6BE9C;
     padding: 6rem;
     border-radius: 1.6rem 0 0 1.6rem;
+}
+.works .items .work-1 .text{
+    background-color:#F6BE9C;
+    /* border-radius: 1.6rem 0 0 1.6rem; */
 }
 .works .stellas-work img{
     height: 60rem;
@@ -236,8 +241,7 @@ main{
 
 .works .items .work-2 .text{
     background-color:#ffffff;
-    padding: 6rem;
-    border-radius: 1.6rem 0 0 1.6rem;
+    /* border-radius: 1.6rem 0 0 1.6rem; */
 }
 .works .work-image img{
     height: 60rem;
@@ -252,8 +256,7 @@ main{
 
 .works .items .work-3 .text{
     background-color:#ffffff;
-    padding: 6rem;
-    border-radius: 1.6rem 0 0 1.6rem;
+    /* border-radius: 1.6rem 0 0 1.6rem; */
 }
 .works .work-image img{
     height: 60rem;
