@@ -1,0 +1,32 @@
+@media (min-width: 2500px){
+    html{
+        font-size: 16px;
+    }
+    html p{
+        letter-spacing: 1px;
+        line-height: 50px;
+    }
+    .works{
+        max-width: 200rem;
+        margin: auto;
+    
+    }
+    #what .container{
+        max-width: 200rem;
+        margin: auto;
+    }
+    /* header .logo{
+        margin-left: 30rem;
+    }
+    header .nav{
+        margin-left: 50rem;
+    }
+    header .nav{
+        margin-right:50rem;
+    }
+    header li{
+        height: 12.4rem;
+        font-size: 2.4rem;
+    } */
+    
+}

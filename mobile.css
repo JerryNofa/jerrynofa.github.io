@@ -72,9 +72,16 @@
     .works .items .work-1 .text, .works .items .work-2 .text, .works .items .work-3 .text, .works .items .work-4 .text, .works .items .work-5 .text, .works .items .work-6 .text{
        border-radius: 1.6rem;
        border: solid 1px #E2E5EB;
+       box-shadow: none;
     }
     footer{
         padding: 2.4rem;
+    }
+    footer img{
+        width: 5rem;
+    }
+    footer h3{
+        font-size: 1rem;
     }
     .all-works .text{padding:18rem 2.4rem 0 2.4rem ;}
 
