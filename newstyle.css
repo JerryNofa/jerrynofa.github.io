@@ -186,6 +186,9 @@ main{
 
 /* What */
 
+#what{
+    background: #E2E5EB;
+}
 #what .items{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -194,7 +197,9 @@ main{
     display: flex;
 }
 #what .container{
-    background: #E2E5EB;
+    /* background: #E2E5EB; */
+    max-width: 144rem;
+    margin: auto;
 }
 #what .item{
     margin: 3rem 12.4rem;
@@ -212,10 +217,11 @@ main{
 
 /* works */
 
-/* .works .container .items{
-    flex-direction: column;   
-} */
+.works{
+    max-width: 144rem;
+    margin: auto;
 
+}
 .works .container .main-text{
     
     width: 50%;
@@ -285,6 +291,8 @@ main{
     color: #E2E5EB;
     /* border-radius: 1.6rem 0 0 1.6rem; */
 }
+
+
 .works .items .work-3 .text p {
     opacity: 90%;
     color: #E2E5EB;
@@ -363,6 +371,7 @@ footer{
     padding: 4.8rem 12.4rem;
     background-color: #000000;
 }
+
 footer h2{
     color: #E2E5EB;
     margin-bottom: 0;
@@ -393,8 +402,8 @@ footer h3{
 }
 .all-works .text h3{opacity: 50%;}
 
-.all-works .items-container{
-    margin-bottom: 3rem;
+.all-works .items-container, .works .items-container{
+    margin-bottom: 5rem;
 }
 .works .items .work-4{
     display: flex;
@@ -433,4 +442,10 @@ footer h3{
 .works .items .work-6 .text p{
     opacity: 90%;
     color: #E2E5EB;
+}
+
+.works .items .work-1 .text, .works .items .work-2 .text, .works .items .work-3 .text, .works .items .work-4 .text, .works .items .work-5 .text, .works .items .work-6 .text{
+    z-index: 1;
+    box-shadow: 40px 16px 30px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
 }
