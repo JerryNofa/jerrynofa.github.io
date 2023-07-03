@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@100;200;300;400;500;600;700&display=swap');
 
 html{
     font-size: 10px;
@@ -56,10 +56,8 @@ p{
 .btn{
     font-family: 'Montserrat';
     font-size: 1.6rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #14213D;
-    /* width: 250px;
-    height: 44px; */
     flex-shrink: 0;
     border-radius: 32px;
     border: solid 1px #14213D;
@@ -67,13 +65,23 @@ p{
     margin: 0;
     padding: 1rem 6rem;
 }
+/* .btn-yellow{
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    font-weight: 500;
+    background-color: #FF9F1C;
+    color: #ffffff;
+    flex-shrink: 0;
+    border-radius: 32px;
+    text-decoration: none;
+    margin: 0;
+    padding: 1rem 6rem;
+} */
 .btn-white{
     font-family: 'Montserrat';
     font-size: 1.6rem;
     font-weight: 600;
     color: #ffffff;
-    /* width: 250px;
-    height: 44px; */
     flex-shrink: 0;
     border-radius: 32px;
     border: solid 1px #E2E5EB;
@@ -86,6 +94,7 @@ p{
     color: #E2E5EB;
     cursor: pointer;
 }
+
 
 /* nav */
 
@@ -149,7 +158,7 @@ header ul button{
 
 main{
     color: #14213D;
-    height: 100vh;
+    height: 110vh;
     /* margin: -124px 0 0 0; */
    
 }
@@ -172,22 +181,11 @@ main{
    width: 50%;  
    margin: 3.6rem 0; 
 }
-/* #showcase .showcase-content button{
-    width: 203px;
-    height: 44px;
-    flex-shrink: 0;
-    border-radius: 32px;
-    border: solid 1px #14213D;
-}
-#showcase .showcase-content button:hover{
-    background-color: #14213D;
-    color: #E2E5EB;
-} */
 
 /* What */
 
 #what{
-    background: #E2E5EB;
+    background: #E2E5EB;    
 }
 #what .items{
     display: grid;
@@ -202,7 +200,7 @@ main{
     margin: auto;
 }
 #what .item{
-    margin: 3rem 12.4rem;
+    margin: 3rem 2rem;
     /* width: 40%; */
 }
 .items .head h3{
@@ -211,7 +209,7 @@ main{
 #what .container{
     /* padding: 0 12.4rem; */
     overflow: hidden;
-    padding: 5rem 0;
+    padding: 5rem 12.4rem;
     
 }
 
@@ -300,76 +298,15 @@ main{
 
 .works .items .view-more{
     text-align: center;
-    margin: 6.4rem 0;
+    margin-top: 12.4rem;
 }
-
-
-/* .works .container .items .stellas img{
-    width: 23.3rem;
-    height: 30.2rem;
-    margin: 4rem 7.1rem -7.1rem 7.1rem;
-    position: relative;
-}
-.works .container .items .stellas{
-    width: 37.6rem;
-    height: 45.8rem;
-    background-color: #F6BE9C;
-    border-radius: 6.4rem;
-    overflow: hidden;
-    border: solid 1px #E2E5EB;
-}
-.works .container .items .stellas .copy{
-    background-color: #ffffff;
-    padding: 4rem;
-    box-shadow: 0 -4 20px #333;
-    
-}
-.works .container .items .stellas .copy h3{
-    margin: 0%;
-}
-.works .container .items{
-    display: flex;
-    margin: 4.8rem 0;
-} */
-
-/* WALLETS */
-
-/* .works .container .items .wallets img{
-    width: 26.7rem;
-    height: 15.2rem;
-    margin: 5.4rem 8.5rem 6.6rem 5.5rem;
-}
-.works .container .items .wallets{
-    width: 37.6rem;
-    height: 45.8rem;
-    background-color: #7E79A2;
-    border-radius: 6.4rem;
-    border: solid 1px #E2E5EB;
-    overflow: hidden;
-    margin: 0 3rem;
-}
-.works .container .items .wallets .copy{
-    background-color: #ffffff;
-    padding: 4rem;
-    box-shadow: 0 -4 20px #333;
-}
-.works .container .items .wallets .copy h3{
-    margin: 0%;
-}
-.works a{
-    font-family: 'Montserrat';
-    font-size: 1.6rem;
-    font-weight: 600;
-    padding: 1rem 6rem;
-    color: #14213D;
-    margin: 2rem 2rem;
-} */
 
 /* Footer */
 
 footer{
     padding: 4.8rem 12.4rem;
     background-color: #000000;
+    margin-top: 12.4rem;
 }
 
 footer h2{
@@ -448,4 +385,78 @@ footer h3{
     z-index: 1;
     box-shadow: 40px 16px 30px rgba(0, 0, 0, 0.25);
     overflow: hidden;
+}
+
+/* Individual Work Pages */
+
+.work-banner{
+    margin-top: 5rem;
+    background-image: url('stellas-banner.jpg');
+    background-repeat: no-repeat;
+    min-height: 45vh;
+    background-size: cover;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.20);
+}
+.all-works .role{
+    padding: 10rem 12.4rem 0 12.4rem;
+}
+
+
+/* About Page */
+.about .text{
+    padding: 12.4rem 12.4rem 0 12.4rem;
+}
+.about-container .text h3{
+    opacity: 50%;
+}
+.about-container{
+    display: flex;
+    margin: 12.4rem;
+    gap: 10rem;
+}
+.about-container .text{
+  
+}
+.about-container .images{
+    width: 100vw;
+}
+.about-container .images .about-picture{
+    position:relative;
+    width: 100%;
+    height: 100%;
+    background: url(gigm-work.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-container .images{
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .view-works{
+    padding: 12.4rem 12.4rem 0 12.4rem;
+} */
+
+.view-works .head{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.view-works a{
+    text-decoration: none;
+    color: #14213D;
+}
+
+.view-works .p{
+    max-width: 35%;
+    text-align: center;
+    margin: auto;
+}
+.view-works .head:hover{
+    cursor: pointer;
+    background: #E2E5EB;
+    color: #FF9F1C;
 }

@@ -7,6 +7,9 @@
     header li{
         font-size: 1.4rem;
     }
+    main{
+        height: 90vh;
+    }
     .logo{
         margin: 2rem 0;
     }
@@ -20,6 +23,7 @@
         font-size: 4.8rem;
     }
     .m-heading{font-size: 3.2rem;}
+    .m-heading-white{font-size: 3.2rem;}
     h3{font-size: 1.4rem;}
     p{font-size: 1.4rem}
     .p-bold{font-size: 1.4rem;}
@@ -29,12 +33,18 @@
      }
      .btn{
         font-size: 1.4rem;
-        padding: 1rem 2rem;
+        padding: 1rem 6rem;
      }
      .btn-white{
         font-size: 1.4rem;
-        padding: 1rem 2rem;
+        padding: 1rem 6rem;
      }
+     #what .container{
+        /* padding: 0 12.4rem; */
+        overflow: hidden;
+        padding: 5rem 0;
+        
+    }
      #what .items{
         display: flex;
         flex-direction: column;
@@ -85,4 +95,16 @@
     }
     .all-works .text{padding:18rem 2.4rem 0 2.4rem ;}
 
+    /* About */
+    .about-container{
+        margin: 6.4rem 2.4rem;
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+    .about .text{
+        padding: 18rem 2.4rem 0 2.4rem;
+    }
+    .view-works .head .m-heading{
+        font-size: 2.4rem;
+    }
 }
