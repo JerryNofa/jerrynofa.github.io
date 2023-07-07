@@ -107,4 +107,7 @@
     .view-works .head .m-heading{
         font-size: 2.4rem;
     }
+    .about-container .text{
+        width: 100%;
+    }
 }
