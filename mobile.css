@@ -59,6 +59,7 @@
     .works .container .main-text{
         width: 80%;
         padding: 0;
+        margin-top: 10rem;
     }
     .works .items img{
         display: none;

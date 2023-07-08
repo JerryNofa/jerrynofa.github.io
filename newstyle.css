@@ -7,7 +7,6 @@ body{
     background-color: #f1f1f1;
     padding: 0;
     margin: 0;
-
 }
 
 /* Utilities */
@@ -27,6 +26,7 @@ body{
     font-size: 5.2rem;
     font-family: 'comfortaa';
 }
+.m-heading span{color: #FF9F1C;}
 .m-heading-white{
     font-size: 5.2rem;
     font-family: 'comfortaa';
@@ -185,7 +185,13 @@ main{
 /* What */
 
 #what{
-    background: #E2E5EB;    
+    /* background: #E2E5EB;    */
+    background: url(what-bg-noise.png); 
+    color: #E2E5EB;
+}
+#what p{
+    color: #E2E5EB;
+    /* opacity: 80%; */
 }
 
 #what .items{
@@ -225,7 +231,7 @@ main{
     
     width: 50%;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 12.4rem;
     padding:0 12.4rem;
 }
 .works .container{
@@ -287,7 +293,7 @@ main{
 
 .works .items .work-3 .text{
     background-color:#18191F;
-    color: #E2E5EB;
+    color: #ffffff;
     /* border-radius: 1.6rem 0 0 1.6rem; */
 }
 
@@ -374,7 +380,7 @@ footer h3{
 }
 .works .items .work-6 .text{
     background-color:#3d0814;
-    color: #f1f1f1;
+    color: #ffffff;
     /* border-radius: 1.6rem 0 0 1.6rem; */
 }
 .works .items .work-6 .text p{
@@ -409,6 +415,7 @@ footer h3{
 }
 .about-container .text h3{
     opacity: 50%;
+    margin-top: 0;
 }
 .about-container{
     display: flex;
