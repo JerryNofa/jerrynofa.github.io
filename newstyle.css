@@ -51,7 +51,10 @@ p{
     font-size: 1.6rem;
     line-height: 25px;
     color: #14213D;
-
+}
+.text-white{
+    opacity: 90%;
+    color: #E2E5EB;
 }
 .btn{
     font-family: 'Montserrat';
@@ -65,7 +68,7 @@ p{
     margin: 0;
     padding: 1rem 6rem;
 }
-/* .btn-yellow{
+.btn-yellow{
     font-family: 'Montserrat';
     font-size: 1.6rem;
     font-weight: 500;
@@ -76,7 +79,7 @@ p{
     text-decoration: none;
     margin: 0;
     padding: 1rem 6rem;
-} */
+}
 .btn-white{
     font-family: 'Montserrat';
     font-size: 1.6rem;
@@ -208,7 +211,6 @@ main{
 }
 #what .item{
     margin: 3rem 2rem;
-    /* width: 40%; */
 }
 .items .head h3{
     margin:0 0 0 1.6rem;
@@ -242,7 +244,7 @@ main{
 }
 
 .works .items .items-container{
-    height: 60rem;
+    height: min-content;
     overflow: hidden;
     
 }
@@ -388,6 +390,34 @@ footer h3{
     color: #E2E5EB;
 }
 
+.works .items .work-7{
+    display: flex;
+    margin: 6.4rem 12.4rem 0 12.4rem;
+}
+
+.works .items .work-7 .text{
+    background-color:#3d0814;
+    color: #ffffff;
+    width: 44%;
+    height: 100%;
+    z-index: 1;
+    box-shadow: 40px 16px 30px rgba(0, 0, 0, 0.25);
+    flex-grow: 2;
+
+}
+
+.works .items .items-container .work-7 .work-image{
+    background: url(Stellas-work.jpg);
+    width: 56%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 1.6rem 1.6rem 0;
+    flex-grow: 1;
+}
+
+
+
 .works .items .work-1 .text, .works .items .work-2 .text, .works .items .work-3 .text, .works .items .work-4 .text, .works .items .work-5 .text, .works .items .work-6 .text{
     z-index: 1;
     box-shadow: 40px 16px 30px rgba(0, 0, 0, 0.25);
@@ -407,6 +437,8 @@ footer h3{
 .all-works .role{
     padding: 10rem 12.4rem 0 12.4rem;
 }
+
+
 
 
 /* About Page */
@@ -524,8 +556,5 @@ footer h3{
     opacity: 50%;
 }
 .about-sub .text span{
-    /* color: #FF9F1C; */
     font-weight: 700;
-    /* background: #E2E5EB;
-    padding: 0.4rem; */
 }

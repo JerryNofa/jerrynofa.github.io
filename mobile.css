@@ -71,20 +71,24 @@
         padding: 2.4rem
     }
 
-    .works .items .work-1, .works .items .work-2, .works .items .work-3, .works .items .work-4, .works .items .work-5, .works .items .work-6{
+    .works .items .work-1, .works .items .work-2, .works .items .work-3, .works .items .work-4, .works .items .work-5, .works .items .work-6, .works .items .work-7, .works .items .work-8{
         margin: 2.4rem 2.4rem 0 2.4rem;
     }
-
 
     .works .items .work-4{
         margin: 2.4rem 2.4rem 0 2.4rem;
     }
-    
-    .works .items .work-1 .text, .works .items .work-2 .text, .works .items .work-3 .text, .works .items .work-4 .text, .works .items .work-5 .text, .works .items .work-6 .text{
-       border-radius: 1.6rem;
-       border: solid 1px #E2E5EB;
-       box-shadow: none;
+
+    .works .items .items-container .work-image{
+        display: none;
     }
+    .works .items .items-container .text{
+        width: 100%;
+        border-radius: 1.6rem;
+        border: solid 1px #E2E5EB;
+        box-shadow: none;
+    }
+    
     footer{
         padding: 2.4rem;
     }
@@ -117,5 +121,12 @@
     }
     .about-sub{
         width: 80%;
+    }
+    .view-works .head{
+        gap: 0;
+    }
+    .view-works .head svg{
+        width: 5rem;
+        height: 5rem;
     }
 }
