@@ -53,4 +53,13 @@
         width: 5.4rem;
         height: 6.4rem;
     }
+    .contact .text{
+        padding: 16rem 2.4rem 2.4rem 2.4rem;
+    }
+    .contact .text p{width: 65%;}
+    section .contact-container{
+        padding: 0 2.4rem;
+        gap: 2.4rem;
+    }
+
 }

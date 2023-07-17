@@ -623,3 +623,54 @@ footer h3{
 .about-sub .text span{
     font-weight: 700;
 }
+
+
+/* Contact Page */
+
+.contact .text{
+    padding: 16rem 12.4rem 2.4rem 12.4rem;
+}
+.contact .text span{color: #FF9F1C;}
+.contact .text p{width: 40%;}
+section .contact-container{
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12.4rem;
+}
+section .contact-container .contact-linkedin{
+    background: #ffffff;
+    border: solid 1.5px #E2E5EB;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    padding: 6.4rem;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+section .contact-container .contact-email{
+    background: #ffffff;
+    border: solid 1.5px #E2E5EB;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+    padding: 6.4rem;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+section .contact-container .contact-email:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    transition: 400ms;
+    scale: 1.05;
+}
+section .contact-container .contact-linkedin:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    transition: 400ms;
+    scale: 1.05;
+   
+}
