@@ -8,12 +8,12 @@
     }
 
     .works .items .text{
-        width: 44%;
+        width: 50%;
         background-color: #ffffff;
         padding: 2.4rem;
     }
     .works .items .items-container .work-image{
-        width: 56%;
+        width: 50%;
         border-radius: 0 1.6rem 1.6rem 0;
     }
     #what .container{
@@ -41,9 +41,16 @@
     }
     .about-container .images{
         width: 100%;
-        height: 100vh;
+        height: 120vh;
     }
     .about-sub{
         width: 80%;
+    }
+    .view-works h2{
+        font-size:3.2rem ;
+    }
+    .view-works .head svg{
+        width: 5.4rem;
+        height: 6.4rem;
     }
 }
