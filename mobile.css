@@ -4,6 +4,9 @@
         flex-direction: column;
         height:fit-content;  
     }
+    header .nav ul{
+        padding: 0;
+    }
     header li{
         font-size: 1.4rem;
     }
@@ -85,7 +88,6 @@
     .works .items .items-container .text{
         width: 100%;
         border-radius: 1.6rem;
-        border: solid 1px #E2E5EB;
         box-shadow: none;
     }
     
