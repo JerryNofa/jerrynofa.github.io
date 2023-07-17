@@ -375,6 +375,11 @@ footer h3{
 
 /* Works Page */
 
+.works .items .work-1, .works .items .work-2, .works .items .work-3, .works .items .work-4, .works .items .work-5, .works .items .work-6, .works .items .work-7, .works .items .work-8{
+    border: solid 1px #E2E5EB;
+    border-radius: 1.6rem;
+}
+
 .all-works .text{
     padding: 16rem 12.4rem 0 12.4rem;
 }
@@ -431,7 +436,7 @@ footer h3{
     color: #ffffff;
 }
 .works .items .items-container .work-6 .work-image{
-    background: url(interstellas-work.jpg);
+    background: url(flance-work.jpg);
     width: 56%;
     background-repeat: no-repeat;
     background-position: center;
@@ -445,12 +450,12 @@ footer h3{
 }
 
 .works .items .work-7 .text{
-    background-color: #18191F;
+    background-color: #202030;
     color: #ffffff;
 }
 
 .works .items .items-container .work-7 .work-image{
-    background: url(Stellas-work.jpg);
+    background: url(ghostmode-work.jpg);
     width: 56%;
     background-repeat: no-repeat;
     background-position: center;
