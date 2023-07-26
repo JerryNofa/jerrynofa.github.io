@@ -44,6 +44,7 @@ h3{
     letter-spacing: 1px;
     font-size: 2rem;
     font-weight: 600;
+    color: #14213D;
 }
 
 p{
@@ -203,6 +204,66 @@ main{
    width: 50%;  
    margin: 3.6rem 0; 
 }
+
+/* Companies */
+.companies-section{
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+
+}
+
+.company-logo-wrapper{
+    max-width: 70rem;
+    margin: auto;
+}
+/* .rectangle{
+    position: absolute;
+    top: 15rem;
+    left: 2rem;
+    height: auto;
+    max-width: 100%;
+}
+.mat{
+    position: absolute;
+    top: 10vh;
+    left: 65vw;
+    
+} */
+
+.companies-container{
+    padding: 12.4rem 12.4rem;
+    max-width: 60%;
+    margin: auto;
+}
+.company-text-wrapper{margin-bottom:12.4rem;}
+.company-text-wrapper h3{font-size: 2.4rem;}
+.company-text-wrapper span{color: #FF9F1C;}
+.company-logo-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+.company-logo-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60%;
+    margin: auto;
+
+}
+
+
+.brand-logo{
+    border-radius: 50%;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.10);
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
 
 /* What */
 
@@ -364,13 +425,34 @@ footer img:hover{
     cursor: pointer;
     box-shadow: 1px 1px 20px #3a3b3d;
     border-radius: 32px;
+    transition: 400ms;
+    scale: 1.05;
 }
+footer img{transition: 400ms;}
+
 footer h3{
     color: #E2E5EB;
     opacity: 0.5;
     margin: 6.4rem 0;
 }
-
+footer .email{
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: center;
+}
+footer .email p{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin: 0;}
+.line{
+    width: 4rem;
+    height: 0.3rem;
+    background-color: #FF9F1C;
+    margin-right: 1rem;
+}
+.my-email{
+    font-weight:600;
+    margin: 0;}
 
 
 /* Works Page */
@@ -519,6 +601,7 @@ footer h3{
     margin: 12.4rem;
     gap: 10rem;
 }
+
 .about-container .text{
     width: 50%;
 }
@@ -642,33 +725,34 @@ section .contact-container{
 section .contact-container .contact-linkedin{
     background: #ffffff;
     border: solid 1.5px #E2E5EB;
-    border-radius: 8px;
+    border-radius: 16px;
     width: 50%;
     text-align: center;
     padding: 6.4rem;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
-
+    transition: 400ms;
 }
 
 section .contact-container .contact-email{
     background: #ffffff;
     border: solid 1.5px #E2E5EB;
-    border-radius: 8px;
+    border-radius: 16px;
     width: 50%;
     text-align: center;
     padding: 6.4rem;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    transition: 400ms;
 }
 section .contact-container .contact-email:hover{
     cursor: pointer;
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 15px 70px 0px rgba(0, 0, 0, 0.07);
     width: 50%;
     transition: 400ms;
     scale: 1.05;
 }
 section .contact-container .contact-linkedin:hover{
     cursor: pointer;
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 15px 70px 0px rgba(0, 0, 0, 0.07);
     width: 50%;
     transition: 400ms;
     scale: 1.05;
