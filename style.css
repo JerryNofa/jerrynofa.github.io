@@ -14,6 +14,12 @@ body{
 .text-center{
     text-align: center;
 }
+.dark-bg{
+    background-color: #000000;
+}
+.ghost-mode-bg{
+    background-color: #18191F; 
+}
 
 .l-heading{
     font-size: 7.6rem;
@@ -646,7 +652,9 @@ footer .email p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-   
+}
+.featured-work a{
+    color: inherit;
 }
 
 .mobile-image{
@@ -701,6 +709,11 @@ footer .email p{
     margin-top:12.4rem ;
     margin-left: auto;
     margin-right: auto;
+}
+.confidentiality-note{
+    background-color: #000000;
+    padding: 2.4rem;
+    border-radius: 1.6rem;
 }
 
 
@@ -873,6 +886,5 @@ section .contact-container .contact-linkedin:hover{
     width: 50%;
     transition: 400ms;
     scale: 1.05;
-   
 }
 
