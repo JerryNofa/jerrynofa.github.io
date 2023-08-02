@@ -70,4 +70,36 @@
         gap: 2.4rem;
     }
 
+      /* Featured Work */
+
+
+      .featured-work .text{
+        padding: 16rem 2.4rem 6.4rem 2.4rem;
+        text-align: center;
+    }
+    .featured-work .info{
+        max-width: 70%;
+    }
+    .featured-work .intro{
+        max-width: 80%;
+    }
+    .featured-work .solution{
+        max-width: 80%;
+        margin-top: 6.4rem;
+    }
+    .featured-work .contribution{
+        max-width: 80%;
+        margin-top: 6.4rem;
+    }
+    .featured-work .img img{
+        width: 70%;
+    }
+    .contribution-img img{
+        width: 50%;
+    }
+    .caption{
+        max-width: 70%;
+    }
+
 }
+

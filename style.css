@@ -4,7 +4,7 @@ html{
     font-size: 10px;
 }
 body{
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
     padding: 0;
     margin: 0;
 }
@@ -16,6 +16,13 @@ body{
 }
 
 .l-heading{
+    font-size: 7.6rem;
+    font-family: 'comfortaa';
+    margin: 0;
+    letter-spacing: 2px;
+    color: #14213D;
+}
+.l-heading-cntr{
     font-size: 7.6rem;
     font-family: 'comfortaa';
     margin: 0;
@@ -39,10 +46,23 @@ body{
     font-weight: 600;
 }
 
+.img-format{
+    border: solid 1px #E2E5EB;
+    border-radius: 1.6rem;
+}
+
+
 h3{
     font-family: 'Montserrat';
     letter-spacing: 1px;
     font-size: 2rem;
+    font-weight: 600;
+    color: #14213D;
+}
+h4{
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    font-size: 1.6rem;
     font-weight: 600;
     color: #14213D;
 }
@@ -53,9 +73,21 @@ p{
     line-height: 25px;
     color: #14213D;
 }
+.caption{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    line-height: 15px;
+    color: #14213D;
+    opacity: 50%;
+    max-width: 40%;
+    margin: auto;
+}
 .text-white{
     opacity: 90%;
     color: #E2E5EB;
+}
+.white{
+    color: #ffffff;
 }
 .btn{
     font-family: 'Montserrat';
@@ -67,7 +99,8 @@ p{
     border: solid 1px #14213D;
     text-decoration: none;
     margin: 0;
-    padding: 1rem 6rem;
+    padding: 1rem 2rem;
+    transition: 200ms;
 }
 .btn-yellow{
     font-family: 'Montserrat';
@@ -79,7 +112,7 @@ p{
     border-radius: 32px;
     text-decoration: none;
     margin: 0;
-    padding: 1rem 6rem;
+    padding: 1rem 2rem;
 }
 .btn-white{
     font-family: 'Montserrat';
@@ -91,13 +124,15 @@ p{
     border: solid 1px #E2E5EB;
     text-decoration: none;
     margin: 0;
-    padding: 1rem 6rem;
+    padding: 1rem 2rem;
 }
 .btn:hover{
     background-color: #14213D;
     color: #E2E5EB;
     cursor: pointer;
+    transition: 200ms;
 }
+.yellow-dot{color: #FF9F1C;}
 
 .works .items .text{
     width: 44%;
@@ -182,7 +217,7 @@ header ul button{
 main{
     color: #14213D;
     height: 110vh;
-    /* margin: -124px 0 0 0; */
+    /* margin: 124px 0 0 0; */
    
 }
 #showcase .showcase-content{
@@ -462,6 +497,7 @@ footer .email p{
     border-radius: 1.6rem;
 }
 
+
 .all-works .text{
     padding: 16rem 12.4rem 0 12.4rem;
 }
@@ -493,6 +529,8 @@ footer .email p{
     background-size: cover;
     border-radius: 0 1.6rem 1.6rem 0;
 }
+
+
 .works .items .work-5{
     display: flex;
     margin: 6.4rem 12.4rem 0 12.4rem;
@@ -525,6 +563,8 @@ footer .email p{
     background-size: cover;
     border-radius: 0 1.6rem 1.6rem 0;
 }
+
+
 
 .works .items .work-7{
     display: flex;
@@ -573,18 +613,95 @@ footer .email p{
 
 /* Individual Work Pages */
 
-.work-banner{
+/* .work-banner{
     margin-top: 5rem;
     background-image: url('stellas-banner.jpg');
     background-repeat: no-repeat;
     min-height: 45vh;
     background-size: cover;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.20);
-}
+} */
 .all-works .role{
     padding: 10rem 12.4rem 0 12.4rem;
 }
 
+/* Featured Work */
+
+.featured-work ul{
+    font-family: 'Montserrat';
+    font-size: 1.6rem;
+    line-height: 25px;
+    color: #14213D;
+}
+.featured-work .text{
+    padding: 16rem 12.4rem 6.4rem 12.4rem;
+    text-align: center;
+    background-color: #000000;
+    color: #E2E5EB;
+}
+.featured-work h1{color: #E2E5EB;}
+.featured-work .img{
+    margin-top: 6.4rem;
+    /* max-width: 80%; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.mobile-image{
+    width: 25%;
+    height: auto;
+}
+.featured-work .img img{
+    width: 50%;
+    height: auto;
+}
+
+.contribution-img{
+    margin-top: 6.4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.contribution-img img{
+    width: 40%;
+    height: auto;
+}
+
+
+.featured-work .info{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    max-width: 50%;
+    margin: auto;
+}
+.featured-work .info .sub-info{
+    padding: 2.4rem;
+}
+
+.featured-work .intro{
+    text-align: left;
+    max-width: 50%;
+    margin: auto;
+}
+.featured-work .solution{
+    text-align: left;
+    max-width: 50%;
+    margin-top:12.4rem ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.featured-work .contribution{
+    text-align: left;
+    max-width: 50%;
+    margin-top:12.4rem ;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
@@ -758,3 +875,4 @@ section .contact-container .contact-linkedin:hover{
     scale: 1.05;
    
 }
+

@@ -36,11 +36,11 @@
      }
      .btn{
         font-size: 1.4rem;
-        padding: 1rem 6rem;
+        padding: 1rem 2rem;
      }
      .btn-white{
         font-size: 1.4rem;
-        padding: 1rem 6rem;
+        padding: 1rem 2rem;
      }
 
      /* Companies */
@@ -167,6 +167,53 @@
     }
     section .contact-container{
         flex-direction: column;
+    }
+
+
+    /* Featured Work */
+
+
+    .featured-work .text{
+        padding: 16rem 2.4rem 6.4rem 2.4rem;
+        text-align: center;
+    }
+    .featured-work .info{
+        max-width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+    .featured-work .info .sub-info{
+        padding: 0 2.4rem;
+    }
+    .featured-work .info .sub-info h4{
+        margin-bottom: 0;
+    }
+    .featured-work .info .sub-info p{
+        margin: 0;
+    }
+    .featured-work .intro{
+        max-width: 90%;
+    }
+    .featured-work .solution{
+        max-width: 90%;
+        margin-top: 6.4rem;
+    }
+    .featured-work .contribution{
+        max-width: 90%;
+        margin-top: 6.4rem;
+        }
+    .featured-work .img img{
+        width: 80%;
+    }
+    .contribution-img img{
+        width: 60%;
+    }
+    .mobile-image{
+        width: 40%;
+        height: auto;
+    }
+    .caption{
+        max-width: 80%;
     }
 
 }
