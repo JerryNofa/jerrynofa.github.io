@@ -90,6 +90,9 @@
         padding: 0;
         margin-top: 10rem;
     }
+    .works .container{
+        margin-bottom: 0;
+    }
     .works .items img{
         display: none;
     }
@@ -116,9 +119,14 @@
         border-radius: 1.6rem;
         box-shadow: none;
     }
+
+    .works .items .view-more{
+        margin-top: 6.4rem;
+    }
     
     footer{
         padding: 2.4rem;
+        margin-top: 6.4rem;
     }
     footer img{
         width: 5rem;
@@ -214,6 +222,20 @@
     }
     .caption{
         max-width: 80%;
+    }
+    .more-works-bottom{
+        flex-direction: column;
+    }
+    .more-works-bottom .works-gallery-btn a{
+        margin-bottom: 2.4rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .more-works-bottom .works-gallery-btn{
+        margin: 2.4rem;
+    }
+    .more-works-bottom .works-gallery-btn{
+        flex-direction: column;
     }
 
 }
