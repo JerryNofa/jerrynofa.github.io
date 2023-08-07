@@ -4,11 +4,10 @@ html{
     font-size: 10px;
 }
 body{
-    /* background-color: #f1f1f1; */
+    background-color: #f1f1f1;
     padding: 0;
     margin: 0;
 }
-
 /* Utilities */
 
 .text-center{
@@ -20,7 +19,9 @@ body{
 .ghost-mode-bg{
     background-color: #18191F; 
 }
-
+.white-bg{
+    background-color: #FFFFFF;
+}
 .l-heading{
     font-size: 7.6rem;
     font-family: 'comfortaa';
@@ -257,12 +258,12 @@ main{
 }
 
 /* Companies */
-.companies-section{
-    background-color: #ffffff;
+/* .companies-section{
+    background-color: #BBF6E2;
     text-align: center;
     position: relative;
 
-}
+} */
 
 .company-logo-wrapper{
     max-width: 70rem;
@@ -950,4 +951,68 @@ section .contact-container .contact-linkedin:hover{
     transition: 400ms;
     scale: 1.05;
 }
+
+
+/* Companies List */
+
+.companies-section{
+    background-color: #000000;
+    height: 100%;
+    padding: 12.4rem 0;
+    color: #ffffff;
+    /* text-align: center;
+    position: relative; */
+
+}
+.companies-l-text{
+    font-size: 10rem;
+    font-family: 'montserrat';
+}
+.companies-list{
+    /* display: flex; */
+    /* overflow: hidden; */
+    /* background-color: #F2F8F3; */
+}
+.companies-list .top-part-1{
+    /* line-height: 1000%; */
+}
+/* .companies-list a{
+    text-decoration: none;
+    color: #ffffff;
+
+    background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+    overflow: hidden;
+    background-clip: text;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-transition: .35s ease-in-out;
+  transition: .35s ease-in-out;
+
+} */
+
+.companies-list a{
+    cursor:pointer;
+    position: relative;
+    /* display: inline-block; */
+    color: #ffffff;
+    overflow: hidden;
+    background: linear-gradient(to right, #FF9F1C, #158895 50%, #ffffff 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    text-decoration: none;
+}
+
+
+.companies-list a:hover{
+    background-position: 0 100%;
+}
+.companies-tag{
+    display: flex;
+    align-items: center;
+}
+
 
