@@ -113,5 +113,10 @@
         margin: 2.4rem;
     }
 
+    /* Companies List */
+    .companies-l-text{
+        font-size: 8rem;
+    }
+
 }
 

@@ -238,4 +238,12 @@
         flex-direction: column;
     }
 
+    /* Companies List */
+    .companies-l-text{
+        font-size: 5rem;
+    }
+    .companies-section{
+        padding: 6.4rem 0;
+    }
+
 }
