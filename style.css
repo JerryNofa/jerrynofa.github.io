@@ -259,7 +259,7 @@ main{
 
 /* Companies */
 /* .companies-section{
-    background-color: #BBF6E2;
+    background-color: #ffffff;
     text-align: center;
     position: relative;
 
@@ -783,87 +783,61 @@ footer .email p{
 
 
 /* About Page */
+
 .about .text{
     padding: 16rem 12.4rem 0 12.4rem;
+}
+.about-container{
+    display: flex;
+    margin: 12.4rem;
+    gap: 5rem;
 }
 .about-container .text h3{
     opacity: 50%;
     margin-top: 0;
 }
-.about-container{
-    display: flex;
-    margin: 12.4rem;
-    gap: 10rem;
+.about-container img{
+    width:100% ;
+    height: 40rem;
+    object-fit: cover;
+    object-position:top;
+    border-radius: 0.8rem;
 }
 
-.about-container .text{
+/* .about-sub{
+    text-align: left;
     width: 50%;
-}
-.about-container .images{
-    width: 50%;
-}
-.about-container .images .about-picture{
-    position: absolute;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(jerry-pic1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-}
-.about-container .images .about-picture2{
-    position: absolute;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(jerry-pic2.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-}
-
-
-
-/* .about-container .images .about-picture img{
-    position: absolute;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(jerry-pic1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-}
-.about-container .images .about-picture2 img{
-    position: absolute;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background: url(jerry-pic1.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
+    margin: 5rem auto;
 } */
-.about-container .images .about-picture img{
-    overflow: clip;
+.about-more{
+    padding: 0 12.4rem;
+}
+.about-more .key-achievements{
+    background-color: #000000;
+    padding: 6.4rem 6.4rem;
+    border: solid 1px #E2E5EB;
+    border-radius: 1.6rem;
+}
+.about-sub h3{
+    opacity: 50%;
+    color: #FFFFFF;
+}
+.about-sub h4{
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+.about-sub p{
+    margin-top: 0;
+    color: #E2E5EB;
+}
+.about-sub .text span{
+    font-weight: 700;
 }
 
-.about-container .images{
-    gap: 2rem;
-    display: flex;
-    flex-direction: column;
 
+.view-works{
+    margin: 6.4rem 0;
 }
-
-/* .view-works{
-    padding: 12.4rem 12.4rem 0 12.4rem;
-} */
-
 .view-works .head{
     justify-content: center;
     align-items: center;
@@ -888,17 +862,6 @@ footer .email p{
 .view-works .head svg{
     width: 10rem;
     height: 10rem;
-}
-.about-sub{
-    text-align: center;
-    width: 50%;
-    margin: 5rem auto;
-}
-.about-sub h3{
-    opacity: 50%;
-}
-.about-sub .text span{
-    font-weight: 700;
 }
 
 
