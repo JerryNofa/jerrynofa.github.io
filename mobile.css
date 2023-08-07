@@ -155,8 +155,11 @@
     .about-container .text{
         width: 100%;
     }
-    .about-sub{
-        width: 80%;
+    .about-more{
+        padding: 0 2.4rem;
+    }
+    .about-more .key-achievements{
+        padding: 2.4rem 2.4rem;
     }
     .view-works .head{
         gap: 0;
