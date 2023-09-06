@@ -249,4 +249,11 @@
         padding: 6.4rem 0;
     }
 
+    /* My Images */
+
+    .my-images .small-img{
+        left: 20%;
+        transform: translate(-100rem, 30rem);
+    }
+
 }
