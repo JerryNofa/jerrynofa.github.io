@@ -145,6 +145,10 @@
         height: 25rem;
     }
 
+    .my-images{
+        margin: 6.4rem 2.4rem;
+    }
+
     /* Contact */
     #contact .container{
         border-radius: 0;
