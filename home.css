@@ -435,14 +435,16 @@ width: 50%;
 }
 #contact h3{
     color: #FFFFFF;
-
+}
+#contact h3 span{
+    color: #FF9F1C;
 }
 #contact .email{
     margin-bottom: 2rem;
 }
 #contact .email a{
     font-weight: 700;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
 }
 #contact .social{
     display: flex;
@@ -453,8 +455,9 @@ width: 50%;
     
 }
 
-#contact .social a img{
+#contact .social a svg{
     width: 6.4rem;
+    height: 6.4rem;
 }
 #contact .social a{
     transition: 0.2s;
