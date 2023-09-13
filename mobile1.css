@@ -18,36 +18,23 @@
 
     /* Main Section */
 
+/* #about-me{display: none;} */
+
     #main{
         justify-content: center;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100vw;
     }
-    
     #main .social{
-        /* display: none; */
-        position: relative;
-        width: 100%;
-        padding: 0;
+        display: none;
     }
     #main .social li{
         margin: 0;
     }
-    #main .nav{
-        /* display: none; */
-        /* position: relative; */
-        /* width: 100%; */
-        padding-right: 2.4rem;
-        background-color: rgb(255, 255, 255, 0.5);
-        backdrop-filter: blur(2px);
-        border: 1px solid rgb(255, 255, 255, 0.5);
-        border-radius: 0.8rem 0 0 0.8rem;
-    }
 
-    #main .social ol{
-        display: none;
-    }
+    
     #main .nav{
         position: relative;
         background-color: transparent;
@@ -68,14 +55,13 @@
     /* Hero */
     .hero{
         flex-direction: column;
-        width: 100%;
         gap: 2rem;
         margin: 2.4rem;
+        max-width: 100%;
     }
     .hero .hero-text{
         width: 100%;
         text-align: center;
-        padding: 2.4rem;
     }
     .hero .hero-text p{
         width: 100%;
@@ -85,8 +71,10 @@
         margin-left:auto ;
     }
     .hero .sub-text p{
-        margin: 0 auto;
+        margin: 0;
+        width: 100%;
     }
+    
     
 
     /* Works */
@@ -118,6 +106,12 @@
     #work .work-text .copy{
         margin: 0 2.4rem;
     }
+    #work .work-text .industry .item p{
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin: 0.5rem;
+    }
+
     #work .work-text .action{
         margin: 2.4rem;
     }
@@ -134,10 +128,10 @@
     }
 
     /* About Me */
+    #about-me{padding: 2.4rem;}
     #about-me .text{
         flex-direction: column;
         width: 100%;
-        padding: 0 2.4rem;
         gap: 2rem;
     }
     #about-me .text .background{
@@ -154,11 +148,19 @@
     /* Contact */
     #contact .container{
         border-radius: 0;
+        padding: 0;
+        border-radius: 3.2rem;
+    }
+    #contact{
+        background-color: #000000;
+        border-radius: 0;
+        padding: 6.4rem;
     }
 
     /* Footer */
     #footer {
         text-align: center;
+        padding: 2.4rem 2.4rem 6.4rem 2.4rem;
     }
     #top{display: none;}
 }
