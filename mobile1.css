@@ -1,0 +1,164 @@
+@media (max-width: 600px){
+
+
+    /* Utility*/
+
+    .fact{
+        margin: 6.4rem 0;
+    }
+
+    .fact.fact2{
+        margin-top:0 ;
+    }
+
+    header{
+        padding: 5rem 2.4rem 1rem 2.4rem;
+    }
+
+
+    /* Main Section */
+
+    #main{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #main .social{
+        /* display: none; */
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+    #main .social li{
+        margin: 0;
+    }
+    #main .nav{
+        /* display: none; */
+        /* position: relative; */
+        /* width: 100%; */
+        padding-right: 2.4rem;
+        background-color: rgb(255, 255, 255, 0.5);
+        backdrop-filter: blur(2px);
+        border: 1px solid rgb(255, 255, 255, 0.5);
+        border-radius: 0.8rem 0 0 0.8rem;
+    }
+
+    #main .social ol{
+        display: none;
+    }
+    #main .nav{
+        position: relative;
+        background-color: transparent;
+        border: none;
+        padding-right: 0;
+
+    }
+    #main .nav ol{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        margin: 2.4rem auto;
+        padding: 0 2.4rem;
+
+    }
+
+    /* Hero */
+    .hero{
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        margin: 2.4rem;
+    }
+    .hero .hero-text{
+        width: 100%;
+        text-align: center;
+        padding: 2.4rem;
+    }
+    .hero .hero-text p{
+        width: 100%;
+    }
+    .hero .sub-text{
+        width: 100%;
+        margin-left:auto ;
+    }
+    .hero .sub-text p{
+        margin: 0 auto;
+    }
+    
+
+    /* Works */
+
+    #works{
+        padding: 0 2.4rem 2.4rem 2.4rem;
+    }
+    /* Work */
+
+    #work{
+        flex-direction: column;
+    }
+    #work .work-img{
+        width: 100%;
+    }
+    #work .work-img img{
+        max-height: 30rem;
+    }
+    #work .work-text{
+        width: 100%;
+        margin-bottom: 6.4rem;
+    }
+    #work .work-text .work-logo{
+        margin: 0 2.4rem;
+    }
+    #work .work-text h3{
+        margin: 0 2.4rem;
+    }
+    #work .work-text .copy{
+        margin: 0 2.4rem;
+    }
+    #work .work-text .action{
+        margin: 2.4rem;
+    }
+    #work .industry{
+    flex-direction: column;
+    margin: 2.4rem;
+
+    }
+
+    /* About */
+
+    #about{
+        padding: 0 2.4rem;
+    }
+
+    /* About Me */
+    #about-me .text{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2.4rem;
+        gap: 2rem;
+    }
+    #about-me .text .background{
+        width: 100%;
+    }
+    #about-me .text .availability{
+        width: 100%;
+    }
+    .my-images .small-img img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    /* Contact */
+    #contact .container{
+        border-radius: 0;
+    }
+
+    /* Footer */
+    #footer {
+        text-align: center;
+    }
+    #top{display: none;}
+}
