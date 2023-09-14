@@ -411,6 +411,11 @@ width: 50%;
     align-items: center;
 }
 
+#about-me .availability .about-text a{
+    font-weight: 600;
+}
+
+
 .my-images{
     margin: 6.4rem;
 }
