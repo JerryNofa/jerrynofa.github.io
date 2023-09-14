@@ -24,6 +24,7 @@
         padding-right: 2.4rem;
         background-color: rgb(255, 255, 255, 0.5);
         backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur( 1.5px);
         border: 1px solid rgb(255, 255, 255, 0.5);
         border-radius: 0.8rem 0 0 0.8rem;
     }
@@ -161,6 +162,20 @@
     }
     #work .work-text .industry{
         flex-direction: column;
+    }
+
+    /* About Me */
+
+    #about-me .text{
+        width: 100%;
+    
+    }
+
+    /* Back To Top */
+     
+    #top .top{
+    bottom: 5rem;
+    right: 2.4rem;
     }
 
 }
