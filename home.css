@@ -16,7 +16,7 @@ body{
 
 /* Utilities */
 .logo{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 2.4rem;
     font-weight: 700;
     margin: 0;
@@ -25,14 +25,14 @@ body{
     color: #14213D;
 }
 .bold{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;    
     font-weight: 500;
 }
 a{
     text-decoration: none;
 }
 .p-text{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.6rem;
     color: #14213D;
     line-height: 2.5rem;
@@ -40,7 +40,7 @@ a{
     /* letter-spacing: 0.03rem; */
 }
 .p-text-white{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.6rem;
     color: #FFFFFF;
     opacity: 90%;
@@ -48,7 +48,7 @@ a{
     line-height: 2.5rem;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     color: #14213D;
 }
 .l-heading{
@@ -68,13 +68,13 @@ h3{
     opacity: 90%;  
 }
 .hero-h3{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 3.2rem;
     font-weight: 500;
     color: #14213D;
 }
 .hero-h3-bold{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 6rem;
     font-weight: 600;
     color: #14213D;
@@ -364,7 +364,7 @@ header{
     font-weight: 600;
 }
 #work .work-text a{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.6rem;
     font-weight: 600;
     color:#14213D;
@@ -383,7 +383,7 @@ header{
 
 /* About-Me New */
 #about-me{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     padding: 5rem;
     
 }
@@ -498,7 +498,7 @@ width: 50%;
 #footer .carbon .carbon-text a{
     background-color: #00ffbc;
     color: #1519d3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     padding: 1rem;
@@ -513,7 +513,7 @@ width: 50%;
     margin: 0;
     background-color: #FFFFFF;
     color: #1519d3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.2rem;
     padding: 0.3rem 1rem;
     font-weight: 300;
@@ -543,7 +543,7 @@ width: 50%;
 } */
 
 #footer .carbon-copy p{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
     color: #14213D;
@@ -557,7 +557,7 @@ width: 50%;
     font-weight: 600;
 }
 .website-carbon{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.2rem;
     color: #14213D;
     text-transform:uppercase;
