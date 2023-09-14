@@ -172,11 +172,11 @@
     }
     
     /* Back To Top */
-    #top .top{
+    /* #top .top{
         bottom: 2.4rem;
         right: 2.4rem;
-        }
+        } */
 
-    /* #top{display: none;} */
+    #top{display: none;}
     
 }
