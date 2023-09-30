@@ -157,12 +157,32 @@
 
     /* Work */
 
-    #work .work-text{
+    /* #work .work-text{
         width: 45%;
     }
     #work .work-text .industry{
         flex-direction: column;
+    } */
+
+
+    .all-works{
+        gap: 3rem;
+        /* display: flex;
+        flex-direction: column; */
     }
+    .grid-span-7{
+        grid-column: span 6;
+    }
+    .grid-span-5{
+        grid-column: span 6;
+        grid-row: span ;
+    }
+    #work .work-text{
+        padding: 2.4rem;
+    }
+
+
+
 
     /* About Me */
 
