@@ -154,6 +154,11 @@
         width: 60%;
     }
 
+    .hero .sub-text p{
+        width: 22rem;
+        margin-left: 11rem;
+    }
+
 
     /* Work */
 

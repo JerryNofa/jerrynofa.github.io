@@ -327,7 +327,7 @@ header img{
 /* Works-New */
 
 #works{
-    padding: 0 5rem 5rem 5rem;
+    padding: 0 5rem;
 }
 #works .works-heading h3 span{color: #FF9F1C;}
 
@@ -401,8 +401,8 @@ header img{
     align-items: center;
 }
 .stellas{background-color: #F6BE9C;}
-.interstellas{background-color: #FFF6F7;}
-.wallets{background-color: #F1F1E6;}
+.interstellas{background-color: #F1F1E6;}
+.wallets{background-color: #F2F6F7;}
 .flance{background-color: #332E2E;}
 .gigm{background-color: #C1E8F8;}
 /* .gigm{background-color: #adbcbc;} */
