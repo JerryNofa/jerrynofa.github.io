@@ -204,3 +204,13 @@
     }
 
 }
+
+@media (min-width: 601px) and (max-width: 768px){
+
+    .all-works{
+        display: flex;
+        flex-direction: column;
+        gap: 6.4rem;
+    }
+    
+}
